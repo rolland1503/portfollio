@@ -1,0 +1,111 @@
+
+body{
+	font-family: 'Yeon Sung', cursive;
+	font-weight: bold;
+	
+	position: relative;
+}
+header{
+	position: relative;
+	height: 300px;
+	width:100%;
+	top: 0px;
+	background-image: url(img/fond.jpg);
+	background-repeat: repeat-x;
+	animation: defile 40s linear infinite;
+}
+
+@keyframes defile {
+			  0% { background-position-x:   0; }
+			  
+			100% { background-position-x: 100vw; }
+		}
+
+
+
+	
+
+
+
+
+ .boudha{
+	width: 200px;
+	height:200px;
+	border: 1px white solid;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	right: 45%;
+
+}
+
+
+nav{
+	position: absolute;
+	top: -100px;
+}
+
+#presentation{
+
+	margin-top: -12vh;
+}
+
+section{
+	margin-top: 18vh;
+	
+}
+
+h1, h2{
+	font-family: 'Permanent Marker', cursive;
+	margin-bottom: 10vh;
+	text-align: center;
+	border-top: 1px solid green;
+	border-bottom:  1px solid green;
+}
+
+.progress{
+	height: 5vh;
+	margin-bottom: 3vh;
+}
+
+
+#projet{
+
+	position: relative;
+}
+
+
+#projet h2{
+
+	position: absolute;
+	color: green;
+}
+
+#footer{
+
+	width: 100%;
+
+	background-color: #aaaa;
+}
+
+ul{
+	
+	padding: 10% auto;
+}
+
+#footer ul li{
+
+	display: inline;
+	list-style: none;
+	margin-left: 17vh;
+	
+
+
+}
+
+#footer ul li a{
+
+	text-decoration: none;
+	color: green;
+	font-size: 30px;
+}

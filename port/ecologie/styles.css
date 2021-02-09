@@ -1,0 +1,181 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(95deg, rgba(27,20,7,1) 0%, rgba(9,28,121,0.7847514005602241) 0%, rgba(208,234,240,1) 100%);
+
+}
+
+
+nav{
+	width: 100%;
+	height: 7vh;
+	background: linear-gradient(95deg, rgba(27,20,7,1) 0%, rgba(9,28,121,1) 0%, rgba(208,234,240,1) 100%);
+	position: absolute;
+	top: 0%;
+	position: fixed;
+}
+nav h2{
+	position: absolute;
+	color: #78ee5c;
+	top: 0;
+	font-family: 'Righteous', cursive;
+
+}
+
+nav ul{
+	height:  7vh;
+}
+
+
+nav ul li{
+	height:  7vh;
+	display: inline;
+	float: right;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px 20px;
+
+	
+	
+	
+	
+
+}
+
+nav ul li:hover{
+
+background-color: #32cb00;
+}
+
+
+
+
+header{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	padding: 0;
+	
+}
+header img{
+
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+#eau{
+	width: 80%;
+	float: left;
+	padding: 0 5% 0;
+	
+	margin-top: 5%;
+	width: 90%;
+	border-radius: 5px;
+    background-color: #fff;
+	border: 1px solid black;
+	
+}
+
+#eau:hover {
+	background-color: #96fffb;
+  
+  }
+
+
+
+/* Fade in the pseudo-element with the bigger shadow */
+
+
+#logiciel{
+
+	float: right;
+	padding: 0 5% 0;
+	margin-top: 5%;
+	width: 90%;
+
+	background-color: #fff;
+	border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px #656565;
+	border: 1px solid black;
+	
+}
+
+#logiciel:hover {
+
+	
+	background-color: #32cb00;
+  
+  }
+
+
+
+
+.ohoo{
+	text-align: center;
+
+}
+
+.ohoo p{
+	width: 40%;
+	float: right;
+}
+
+#maison{
+	float: left;
+	padding: 0 5% 0;
+	margin-top: 5%;
+	width: 90%;
+
+	background-color: #fff;
+	border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px #656565;
+	border: 1px solid black;
+}
+
+#maison:hover{
+	background-color: #eda124;
+}
+
+footer{
+
+	width: 100%;
+	height: 20vh;
+	
+	
+}
+
+footer h1{
+	text-align: center;
+
+}
+
+footer ul li{
+	list-style: none;
+	display: inline;
+
+}
+
+footer ul li a{
+
+	text-decoration: none;
+	color: #78ee5c;
+	font-family: 'Righteous', cursive;
+	font-size: 30px;
+	margin-left: 10%;
+}
+
+
+footer ul li a:hover{
+
+	color: #78ee5c;
+}
+

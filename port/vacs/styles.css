@@ -1,0 +1,149 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #1E90FF;
+	
+
+	
+}
+
+
+
+header{
+
+	box-shadow: 10px 10px 5px #656565;
+}
+
+
+header img{
+
+	width: 100%;
+	height: 400px;
+}
+
+h1{
+
+	font-family: 'Rowdies', cursive;
+
+}
+
+#introdution, #sujet1{
+
+	background-color: #1E90FF;
+
+}
+
+#sujet1 h1{
+
+	font-family: 'Potta One', cursive;
+}
+
+#sujet1 p{
+
+	font-family: 'Potta One', cursive;
+}
+
+
+#Malpes{
+	width: 250px;
+	height: 125px;
+	border: 1px solid black;
+	background-color: green;
+	box-shadow: 10px 10px 5px #656565;
+	border-radius: 10px;
+	position: absolute;
+	left: 10%;
+	margin-top: 30px;
+}
+
+#Malpes2{
+	width: 250px;
+	height: 125px;
+	border: 1px solid black;
+	background-color: white;
+	box-shadow: 10px 10px 5px #656565;
+	border-radius: 10px;
+	position: absolute;
+	left: 20%;
+}
+
+#Malpes3{
+	width: 250px;
+	height: 125px;
+	border: 1px solid black;
+	background-color: orange;
+	box-shadow: 10px 10px 5px #656565;
+	border-radius: 10px;
+	position: absolute;
+	left: 30%;
+}
+
+#Malpes p:hover{
+
+	color: red;
+}
+
+#Malpes2 p:hover{
+
+	color: red;
+}
+
+#Malpes3 p:hover{
+
+	color: red;
+}
+
+
+#navbar1{
+
+	height:30px;
+	background-color: grey;
+	font-weight: bold;
+	
+
+}
+
+#navbar2{
+
+	height:30px;
+	background-color: blue;
+	font-weight: bold;
+	
+
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+}
+
+
+li{
+    font-family: 'Rowdies', cursive;
+	color: black;
+	display: inline;
+	list-style: none;
+	margin: 10px;
+	text-align: center;
+	padding-right: 20px;
+	border-right: 2px solid black;
+}
+
+li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+p{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+}
